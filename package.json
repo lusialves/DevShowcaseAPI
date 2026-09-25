@@ -1,0 +1,24 @@
+{
+  "name": "devshowcase-api",
+  "version": "1.0.0",
+  "description": "API RESTful acadêmica para perfis de desenvolvedores, projetos, tecnologias e feedbacks.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": ["nodejs", "express", "mysql", "rest-api", "uespi", "devshowcase"],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mysql2": "^3.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.1"
+  }
+}
